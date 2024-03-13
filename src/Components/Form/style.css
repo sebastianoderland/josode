@@ -1,0 +1,24 @@
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.form-group label,
+.submit-button {
+    margin-bottom: 5px
+}
+
+.error-message {
+    color: red
+}
+
+.form-group input[type=radio],
+.form-group label {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.form-group input[type=radio] {
+    margin-right: 5px
+}
